@@ -1,0 +1,204 @@
+@font-face {
+    font-family: MONOCONDENSED ;
+    src: url(InputMonoCondensed-Medium.ttf);
+}
+@font-face {
+    font-family: MONO ;
+    src: url(InputMonoCondensed-Light.ttf);
+}
+
+header
+{
+    margin: -10px;
+    padding: 0px;
+    display: flex;
+    height: 50px;
+    background-color:darkcyan;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+body
+{
+    background-image: url("https://modoweb.es/wp-content/uploads/2017/05/modo-web-diseno-de-pagina-web-fondo-05.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:aliceblue;
+    font-family: MONO;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.espacio
+{
+    margin-bottom: 50px;
+}
+
+a
+{
+    text-decoration: none;
+    color:black;
+    margin-right: 20px;
+}
+div
+{
+    display:block;
+}
+
+.imagenppal
+{
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+}
+.titulo
+{
+    margin-left: 15px;
+    display: flex;
+    color:darkblue;
+    justify-content: center;
+    font-family:MONOCONDENSED;
+}
+
+.titulo2
+{
+    display: flex;
+    color:whitesmoke;
+    justify-content: center;
+}
+
+
+.contenedor {
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    font-size: 20px;
+    margin: auto;
+}
+
+.imagenproy
+{
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagenproy2
+{
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+.contenedor2 
+{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    align-items: top;  
+}
+
+.borde
+{
+    width: 600px;
+    border-style: solid;
+    border-color: darkcyan;
+    border-radius: 10%;
+    border-width: 5px;
+    vertical-align: middle;
+    margin:auto;
+}
+
+.contenedor3
+{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 450px;
+    margin:auto;
+    margin-bottom: 50px;
+    vertical-align: middle;
+    
+}
+
+.contenedor4
+{
+    margin-top: 250px;
+    width: 375px;
+    margin-bottom: 50px;
+    margin: auto;
+}
+
+.grilla
+{
+    position: center;
+    box-sizing: border-box;
+    margin-right: 100px;
+}
+.letrachica
+{
+    font-size: 8px;
+}
+.texto
+{
+    margin-left: 70px;
+    margin-bottom: 15px;
+    width: 350px;
+    height: 200px;
+    font-family: MONO;
+}
+.cuadros
+{
+    margin-left: 70px;
+    margin-bottom: 15px;
+    width: 350px;
+    font-family: MONO;
+    
+}
+.contacto
+{
+    display:flex;
+    margin: auto;
+    align-items: top;  
+    position: center;
+}
+.bajo
+{
+    display: flex;
+    position: center;
+    margin: auto;
+}
+.alinea
+{
+    display: flex;
+    margin-left: auto;
+    position:absolute;
+}
+.boton
+{
+    width: 100px;
+    height: 50px;
+    position: center;
+    border-radius: 20%;
+    background-color: darkcyan;
+    color: darkblue;
+    font-family: MONOCONDENSED;
+    font-size: larger;
+}
+
+.boton2
+{
+    color: darkblue;
+    font-weight:bolder;
+}
+
+.bajo2
+{
+margin-left: 328px;
+}
